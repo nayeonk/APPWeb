@@ -1,0 +1,72 @@
+/* By default, html and body tags come with margin and padding, so override those. */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+img {
+    width: 100%;
+}
+header {
+    background-color: #990000;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+#best-seller {
+    background-color: #e4eff5;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+#best-seller h2 {
+    text-align: center;
+    margin: 0;
+}
+/* .row is the parent of .item. By adding display:flex here, all the .item divs will go next to each other. */
+#best-seller .row {
+    display: flex;
+    justify-content: center;
+}
+#best-seller .item {
+    background-color: gray;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#sale {
+    background-color: beige;
+}
+#sale h2 {
+    text-align: center;
+    margin: 0;
+}
+#sale .row {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    /* Each item actual width is 220px (20px ofpadding) * 4 = 880px */
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sale .item {
+    background-color: gray;
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
